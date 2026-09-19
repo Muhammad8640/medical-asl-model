@@ -1,0 +1,289 @@
+{
+  "model_version": "1.1-msasl",
+  "training_dataset": "MS-ASL medical exact-match subset",
+  "dataset_split_policy": "official MS-ASL train/val/test splits preserved",
+  "sequence_length": 30,
+  "features_per_frame": 144,
+  "feature_vector_length": 4320,
+  "flattening_order": "C order: timestep-major, feature_layout-minor",
+  "random_state": 42,
+  "landmarks": {
+    "left_hand": 21,
+    "right_hand": 21,
+    "pose": [
+      "left_shoulder",
+      "right_shoulder",
+      "left_elbow",
+      "right_elbow",
+      "left_wrist",
+      "right_wrist"
+    ]
+  },
+  "feature_layout": [
+    "left_hand_0_x",
+    "left_hand_0_y",
+    "left_hand_0_z",
+    "left_hand_1_x",
+    "left_hand_1_y",
+    "left_hand_1_z",
+    "left_hand_2_x",
+    "left_hand_2_y",
+    "left_hand_2_z",
+    "left_hand_3_x",
+    "left_hand_3_y",
+    "left_hand_3_z",
+    "left_hand_4_x",
+    "left_hand_4_y",
+    "left_hand_4_z",
+    "left_hand_5_x",
+    "left_hand_5_y",
+    "left_hand_5_z",
+    "left_hand_6_x",
+    "left_hand_6_y",
+    "left_hand_6_z",
+    "left_hand_7_x",
+    "left_hand_7_y",
+    "left_hand_7_z",
+    "left_hand_8_x",
+    "left_hand_8_y",
+    "left_hand_8_z",
+    "left_hand_9_x",
+    "left_hand_9_y",
+    "left_hand_9_z",
+    "left_hand_10_x",
+    "left_hand_10_y",
+    "left_hand_10_z",
+    "left_hand_11_x",
+    "left_hand_11_y",
+    "left_hand_11_z",
+    "left_hand_12_x",
+    "left_hand_12_y",
+    "left_hand_12_z",
+    "left_hand_13_x",
+    "left_hand_13_y",
+    "left_hand_13_z",
+    "left_hand_14_x",
+    "left_hand_14_y",
+    "left_hand_14_z",
+    "left_hand_15_x",
+    "left_hand_15_y",
+    "left_hand_15_z",
+    "left_hand_16_x",
+    "left_hand_16_y",
+    "left_hand_16_z",
+    "left_hand_17_x",
+    "left_hand_17_y",
+    "left_hand_17_z",
+    "left_hand_18_x",
+    "left_hand_18_y",
+    "left_hand_18_z",
+    "left_hand_19_x",
+    "left_hand_19_y",
+    "left_hand_19_z",
+    "left_hand_20_x",
+    "left_hand_20_y",
+    "left_hand_20_z",
+    "right_hand_0_x",
+    "right_hand_0_y",
+    "right_hand_0_z",
+    "right_hand_1_x",
+    "right_hand_1_y",
+    "right_hand_1_z",
+    "right_hand_2_x",
+    "right_hand_2_y",
+    "right_hand_2_z",
+    "right_hand_3_x",
+    "right_hand_3_y",
+    "right_hand_3_z",
+    "right_hand_4_x",
+    "right_hand_4_y",
+    "right_hand_4_z",
+    "right_hand_5_x",
+    "right_hand_5_y",
+    "right_hand_5_z",
+    "right_hand_6_x",
+    "right_hand_6_y",
+    "right_hand_6_z",
+    "right_hand_7_x",
+    "right_hand_7_y",
+    "right_hand_7_z",
+    "right_hand_8_x",
+    "right_hand_8_y",
+    "right_hand_8_z",
+    "right_hand_9_x",
+    "right_hand_9_y",
+    "right_hand_9_z",
+    "right_hand_10_x",
+    "right_hand_10_y",
+    "right_hand_10_z",
+    "right_hand_11_x",
+    "right_hand_11_y",
+    "right_hand_11_z",
+    "right_hand_12_x",
+    "right_hand_12_y",
+    "right_hand_12_z",
+    "right_hand_13_x",
+    "right_hand_13_y",
+    "right_hand_13_z",
+    "right_hand_14_x",
+    "right_hand_14_y",
+    "right_hand_14_z",
+    "right_hand_15_x",
+    "right_hand_15_y",
+    "right_hand_15_z",
+    "right_hand_16_x",
+    "right_hand_16_y",
+    "right_hand_16_z",
+    "right_hand_17_x",
+    "right_hand_17_y",
+    "right_hand_17_z",
+    "right_hand_18_x",
+    "right_hand_18_y",
+    "right_hand_18_z",
+    "right_hand_19_x",
+    "right_hand_19_y",
+    "right_hand_19_z",
+    "right_hand_20_x",
+    "right_hand_20_y",
+    "right_hand_20_z",
+    "left_shoulder_x",
+    "left_shoulder_y",
+    "left_shoulder_z",
+    "right_shoulder_x",
+    "right_shoulder_y",
+    "right_shoulder_z",
+    "left_elbow_x",
+    "left_elbow_y",
+    "left_elbow_z",
+    "right_elbow_x",
+    "right_elbow_y",
+    "right_elbow_z",
+    "left_wrist_x",
+    "left_wrist_y",
+    "left_wrist_z",
+    "right_wrist_x",
+    "right_wrist_y",
+    "right_wrist_z"
+  ],
+  "normalization": {
+    "origin": "3D midpoint between left and right shoulders",
+    "scale": "3D Euclidean shoulder distance",
+    "fallback": "centroid and maximum 3D radius of available required pose points; then available hand points; scale 1.0 if no distinct available points",
+    "missing_landmarks": "all-zero slots retained after normalization"
+  },
+  "temporal_processing": {
+    "sequence_length": 30,
+    "long_sequence_strategy": "30 deterministic evenly spaced frame indices including endpoints",
+    "short_sequence_strategy": "per-feature linear interpolation including endpoints"
+  },
+  "classes": [
+    "back",
+    "doctor",
+    "drink",
+    "eat",
+    "face",
+    "head",
+    "heart",
+    "help",
+    "hospital",
+    "hurt",
+    "medicine",
+    "mouth",
+    "no",
+    "sick",
+    "sleep",
+    "when",
+    "where",
+    "yes"
+  ],
+  "excluded_classes": [
+    {
+      "class": "pain",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "blood",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "eye",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "ear",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "neck",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "chest",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "stomach",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "arm",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "hand",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "finger",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "leg",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "knee",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "foot",
+      "reason": "missing from MS-ASL metadata"
+    },
+    {
+      "class": "breathe",
+      "reason": "missing from MS-ASL metadata"
+    }
+  ],
+  "model_type": "RandomForestClassifier",
+  "probability_support": true,
+  "training_samples": 326,
+  "validation_samples": 82,
+  "reserved_test_samples": 43,
+  "validation_metrics": {
+    "accuracy": 0.3780487804878049,
+    "macro_f1": 0.32752272237566354,
+    "prediction_latency_ms": 0.4437865853372098
+  },
+  "candidate_validation_metrics": {
+    "SVC": {
+      "accuracy": 0.32926829268292684,
+      "macro_f1": 0.2853811593749674,
+      "prediction_latency_ms": 1.0402792682814435
+    },
+    "RandomForestClassifier": {
+      "accuracy": 0.3780487804878049,
+      "macro_f1": 0.32752272237566354,
+      "prediction_latency_ms": 0.4437865853372098
+    }
+  },
+  "model_selection": {
+    "primary": "macro_f1",
+    "secondary": [
+      "accuracy",
+      "prediction_latency_ms"
+    ],
+    "effective_tie_tolerance": 1e-06,
+    "data_used": "MS-ASL validation split only",
+    "test_split_evaluated": false
+  }
+}
