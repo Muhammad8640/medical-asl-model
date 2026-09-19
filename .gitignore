@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# MS-ASL source clips are reproducible inputs and can be very large.
+data/videos/*
+!data/videos/.gitkeep
+data/WLASL_v0.3.json
