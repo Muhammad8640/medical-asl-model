@@ -1,0 +1,2229 @@
+{
+  "dataset": "MS-ASL",
+  "requested_classes": [
+    "help",
+    "yes",
+    "no",
+    "pain",
+    "hurt",
+    "sick",
+    "medicine",
+    "doctor",
+    "hospital",
+    "blood",
+    "head",
+    "face",
+    "eye",
+    "ear",
+    "mouth",
+    "neck",
+    "chest",
+    "heart",
+    "stomach",
+    "back",
+    "arm",
+    "hand",
+    "finger",
+    "leg",
+    "knee",
+    "foot",
+    "breathe",
+    "eat",
+    "drink",
+    "sleep",
+    "where",
+    "when"
+  ],
+  "available_classes": [
+    "help",
+    "yes",
+    "no",
+    "hurt",
+    "sick",
+    "medicine",
+    "doctor",
+    "hospital",
+    "head",
+    "face",
+    "mouth",
+    "heart",
+    "back",
+    "eat",
+    "drink",
+    "sleep",
+    "where",
+    "when"
+  ],
+  "missing_classes": [
+    "pain",
+    "blood",
+    "eye",
+    "ear",
+    "neck",
+    "chest",
+    "stomach",
+    "arm",
+    "hand",
+    "finger",
+    "leg",
+    "knee",
+    "foot",
+    "breathe"
+  ],
+  "metadata_instances_by_class": {
+    "help": 56,
+    "yes": 65,
+    "no": 73,
+    "hurt": 51,
+    "sick": 53,
+    "medicine": 31,
+    "doctor": 55,
+    "hospital": 27,
+    "head": 13,
+    "face": 11,
+    "mouth": 11,
+    "heart": 14,
+    "back": 22,
+    "eat": 77,
+    "drink": 54,
+    "sleep": 26,
+    "where": 60,
+    "when": 48
+  },
+  "metadata_instances_by_split": {
+    "train": 510,
+    "val": 142,
+    "test": 95
+  },
+  "excluded_classes": [],
+  "videos_requested": 747,
+  "unique_sources_referenced": 391,
+  "videos_downloaded": 451,
+  "videos_unavailable": 296,
+  "mediapipe_success": 451,
+  "mediapipe_failed": 0,
+  "usable_samples_by_class": {
+    "help": 35,
+    "yes": 39,
+    "no": 42,
+    "hurt": 29,
+    "sick": 36,
+    "medicine": 22,
+    "doctor": 41,
+    "hospital": 16,
+    "head": 7,
+    "face": 9,
+    "mouth": 9,
+    "heart": 6,
+    "back": 10,
+    "eat": 49,
+    "drink": 27,
+    "sleep": 17,
+    "where": 31,
+    "when": 26
+  },
+  "videos_newly_downloaded": 294,
+  "videos_already_present": 142,
+  "unavailable_videos": [
+    {
+      "video_id": "msasl_train_000125",
+      "source_id": "33402750f66dd968",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] 3DbWOEtUigU: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_001933",
+      "source_id": "eXpXg4q-qEQ",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] eXpXg4q-qEQ: Private video"
+    },
+    {
+      "video_id": "msasl_train_001934",
+      "source_id": "eXpXg4q-qEQ",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] eXpXg4q-qEQ: Private video"
+    },
+    {
+      "video_id": "msasl_train_003276",
+      "source_id": "QVkN9F1w4HQ",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] QVkN9F1w4HQ: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_003277",
+      "source_id": "QVkN9F1w4HQ",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] QVkN9F1w4HQ: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_003633",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003634",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003635",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003636",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003622",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003623",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003624",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003625",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003626",
+      "source_id": "lSxAVvE9sPc",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] lSxAVvE9sPc: Private video"
+    },
+    {
+      "video_id": "msasl_train_006716",
+      "source_id": "-LB4ENHxcIs",
+      "gloss": "help",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_006717",
+      "source_id": "-LB4ENHxcIs",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_006718",
+      "source_id": "-LB4ENHxcIs",
+      "gloss": "no",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_006710",
+      "source_id": "-LB4ENHxcIs",
+      "gloss": "where",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_006709",
+      "source_id": "-LB4ENHxcIs",
+      "gloss": "when",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_008004",
+      "source_id": "ppwqqeS8dzw",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] ppwqqeS8dzw: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_012141",
+      "source_id": "4Nh1iFv2BMc",
+      "gloss": "help",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_015873",
+      "source_id": "TPmpYP8l888",
+      "gloss": "help",
+      "split": "train",
+      "reason": "ERROR: [youtube] TPmpYP8l888: Private video"
+    },
+    {
+      "video_id": "msasl_train_015887",
+      "source_id": "TPmpYP8l888",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] TPmpYP8l888: Private video"
+    },
+    {
+      "video_id": "msasl_train_015888",
+      "source_id": "TPmpYP8l888",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] TPmpYP8l888: Private video"
+    },
+    {
+      "video_id": "msasl_val_000001",
+      "source_id": "a3363e2ec395dd6c",
+      "gloss": "help",
+      "split": "val",
+      "reason": "ERROR: [youtube] l31UXgChCS4: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_000825",
+      "source_id": "1c7346a4c78cc745",
+      "gloss": "help",
+      "split": "val",
+      "reason": "ERROR: [youtube] 7OhTbCXAZQs: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_000932",
+      "source_id": "4e4088e5efe8822f",
+      "gloss": "help",
+      "split": "val",
+      "reason": "ERROR: [youtube] RStYX5OXPjE: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_001838",
+      "source_id": "9g-hioQapYE",
+      "gloss": "help",
+      "split": "val",
+      "reason": "ERROR: [youtube] 9g-hioQapYE: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_001848",
+      "source_id": "9g-hioQapYE",
+      "gloss": "sick",
+      "split": "val",
+      "reason": "ERROR: [youtube] 9g-hioQapYE: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_001790",
+      "source_id": "9g-hioQapYE",
+      "gloss": "where",
+      "split": "val",
+      "reason": "ERROR: [youtube] 9g-hioQapYE: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_001791",
+      "source_id": "9g-hioQapYE",
+      "gloss": "when",
+      "split": "val",
+      "reason": "ERROR: [youtube] 9g-hioQapYE: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_004102",
+      "source_id": "Y4Ah4DAuQS0",
+      "gloss": "help",
+      "split": "val",
+      "reason": "ERROR: [youtube] Y4Ah4DAuQS0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004127",
+      "source_id": "Y4Ah4DAuQS0",
+      "gloss": "medicine",
+      "split": "val",
+      "reason": "ERROR: [youtube] Y4Ah4DAuQS0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004115",
+      "source_id": "Y4Ah4DAuQS0",
+      "gloss": "doctor",
+      "split": "val",
+      "reason": "ERROR: [youtube] Y4Ah4DAuQS0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004117",
+      "source_id": "Y4Ah4DAuQS0",
+      "gloss": "hospital",
+      "split": "val",
+      "reason": "ERROR: [youtube] Y4Ah4DAuQS0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_001227",
+      "source_id": "be54f391cf84bd00",
+      "gloss": "help",
+      "split": "test",
+      "reason": "ERROR: [youtube] OWXmFhatan8: Private video"
+    },
+    {
+      "video_id": "msasl_test_002880",
+      "source_id": "2sGQuduhAf4",
+      "gloss": "help",
+      "split": "test",
+      "reason": "ERROR: [youtube] 2sGQuduhAf4: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_003216",
+      "source_id": "Hmh4IuhWqAk",
+      "gloss": "help",
+      "split": "test",
+      "reason": "ERROR: [youtube] Hmh4IuhWqAk: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_000504",
+      "source_id": "Cgh1DXAQBuI",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] Cgh1DXAQBuI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_000505",
+      "source_id": "Cgh1DXAQBuI",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] Cgh1DXAQBuI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_000730",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_000731",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_000732",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_000733",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_000743",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_000744",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_000762",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_000760",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_000761",
+      "source_id": "7YYB3BEoksc",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] 7YYB3BEoksc: Private video"
+    },
+    {
+      "video_id": "msasl_train_003901",
+      "source_id": "309be6822596bdae",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] Kg0VRsnehgQ: Private video"
+    },
+    {
+      "video_id": "msasl_train_004037",
+      "source_id": "df395dbe1c8b8c16",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] h8dstbX5kN0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_006509",
+      "source_id": "eMZdggjnLQA",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] eMZdggjnLQA: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_008894",
+      "source_id": "2919b5db407e3990",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] wc2A8AZepy4: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_009246",
+      "source_id": "DOZJOFHs75s",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_009247",
+      "source_id": "DOZJOFHs75s",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_009248",
+      "source_id": "DOZJOFHs75s",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_009249",
+      "source_id": "DOZJOFHs75s",
+      "gloss": "no",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_009250",
+      "source_id": "DOZJOFHs75s",
+      "gloss": "no",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_009256",
+      "source_id": "DOZJOFHs75s",
+      "gloss": "where",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_009254",
+      "source_id": "DOZJOFHs75s",
+      "gloss": "when",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_011254",
+      "source_id": "V7WEPn3RJsc",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] V7WEPn3RJsc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011255",
+      "source_id": "V7WEPn3RJsc",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] V7WEPn3RJsc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011256",
+      "source_id": "V7WEPn3RJsc",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] V7WEPn3RJsc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011294",
+      "source_id": "V7WEPn3RJsc",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] V7WEPn3RJsc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011280",
+      "source_id": "V7WEPn3RJsc",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "ERROR: [youtube] V7WEPn3RJsc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011293",
+      "source_id": "V7WEPn3RJsc",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] V7WEPn3RJsc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011292",
+      "source_id": "V7WEPn3RJsc",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] V7WEPn3RJsc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011291",
+      "source_id": "V7WEPn3RJsc",
+      "gloss": "sleep",
+      "split": "train",
+      "reason": "ERROR: [youtube] V7WEPn3RJsc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_012713",
+      "source_id": "BVO_yNElfZY",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] BVO_yNElfZY: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_012714",
+      "source_id": "BVO_yNElfZY",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] BVO_yNElfZY: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_013692",
+      "source_id": "Eq6SnaimpzQ",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] Eq6SnaimpzQ: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_013673",
+      "source_id": "Eq6SnaimpzQ",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] Eq6SnaimpzQ: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_013681",
+      "source_id": "Eq6SnaimpzQ",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "ERROR: [youtube] Eq6SnaimpzQ: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_014360",
+      "source_id": "cc206d8d554e27d7",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "ERROR: [youtube] -WHGzWZa_gk: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_015268",
+      "source_id": "nvaS2J5mcEk",
+      "gloss": "yes",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_015245",
+      "source_id": "nvaS2J5mcEk",
+      "gloss": "no",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_015253",
+      "source_id": "nvaS2J5mcEk",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_val_000818",
+      "source_id": "4e4db69a944df68f",
+      "gloss": "yes",
+      "split": "val",
+      "reason": "ERROR: [youtube] gPlAfYvevxc: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_000873",
+      "source_id": "pD4QabDQr6M",
+      "gloss": "yes",
+      "split": "val",
+      "reason": "ERROR: [youtube] pD4QabDQr6M: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_000874",
+      "source_id": "pD4QabDQr6M",
+      "gloss": "no",
+      "split": "val",
+      "reason": "ERROR: [youtube] pD4QabDQr6M: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_000875",
+      "source_id": "pD4QabDQr6M",
+      "gloss": "no",
+      "split": "val",
+      "reason": "ERROR: [youtube] pD4QabDQr6M: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_001440",
+      "source_id": "S_LEeTt2McM",
+      "gloss": "yes",
+      "split": "val",
+      "reason": "ERROR: [youtube] S_LEeTt2McM: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_001441",
+      "source_id": "S_LEeTt2McM",
+      "gloss": "no",
+      "split": "val",
+      "reason": "ERROR: [youtube] S_LEeTt2McM: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_001386",
+      "source_id": "S_LEeTt2McM",
+      "gloss": "where",
+      "split": "val",
+      "reason": "ERROR: [youtube] S_LEeTt2McM: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_001387",
+      "source_id": "S_LEeTt2McM",
+      "gloss": "when",
+      "split": "val",
+      "reason": "ERROR: [youtube] S_LEeTt2McM: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_002115",
+      "source_id": "iDWntsY_rZM",
+      "gloss": "yes",
+      "split": "val",
+      "reason": "ERROR: [youtube] iDWntsY_rZM: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_002107",
+      "source_id": "iDWntsY_rZM",
+      "gloss": "no",
+      "split": "val",
+      "reason": "ERROR: [youtube] iDWntsY_rZM: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_002114",
+      "source_id": "iDWntsY_rZM",
+      "gloss": "no",
+      "split": "val",
+      "reason": "ERROR: [youtube] iDWntsY_rZM: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_002127",
+      "source_id": "iDWntsY_rZM",
+      "gloss": "sick",
+      "split": "val",
+      "reason": "ERROR: [youtube] iDWntsY_rZM: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_002501",
+      "source_id": "0v4Y9WGhES8",
+      "gloss": "yes",
+      "split": "val",
+      "reason": "ERROR: [youtube] 0v4Y9WGhES8: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_002502",
+      "source_id": "0v4Y9WGhES8",
+      "gloss": "no",
+      "split": "val",
+      "reason": "ERROR: [youtube] 0v4Y9WGhES8: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_002503",
+      "source_id": "0v4Y9WGhES8",
+      "gloss": "no",
+      "split": "val",
+      "reason": "ERROR: [youtube] 0v4Y9WGhES8: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_003520",
+      "source_id": "SJAhRxI7i9c",
+      "gloss": "yes",
+      "split": "test",
+      "reason": "ERROR: [youtube] SJAhRxI7i9c: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_003509",
+      "source_id": "SJAhRxI7i9c",
+      "gloss": "no",
+      "split": "test",
+      "reason": "ERROR: [youtube] SJAhRxI7i9c: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_003514",
+      "source_id": "SJAhRxI7i9c",
+      "gloss": "sick",
+      "split": "test",
+      "reason": "ERROR: [youtube] SJAhRxI7i9c: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_003500",
+      "source_id": "SJAhRxI7i9c",
+      "gloss": "eat",
+      "split": "test",
+      "reason": "ERROR: [youtube] SJAhRxI7i9c: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_005994",
+      "source_id": "TnJQtTYVTtg",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] TnJQtTYVTtg: Private video"
+    },
+    {
+      "video_id": "msasl_train_006001",
+      "source_id": "TnJQtTYVTtg",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] TnJQtTYVTtg: Private video"
+    },
+    {
+      "video_id": "msasl_train_006000",
+      "source_id": "TnJQtTYVTtg",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] TnJQtTYVTtg: Private video"
+    },
+    {
+      "video_id": "msasl_train_007166",
+      "source_id": "hEOcz-FHs4U",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] hEOcz-FHs4U: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_007167",
+      "source_id": "hEOcz-FHs4U",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] hEOcz-FHs4U: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_008184",
+      "source_id": "13OPrjZT9lo",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] 13OPrjZT9lo: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_008187",
+      "source_id": "13OPrjZT9lo",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] 13OPrjZT9lo: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_010811",
+      "source_id": "ead142086dce3d6f",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] d3hz26r_ulw: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_012455",
+      "source_id": "18e4a317be750c7f",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] lgNwgl10VSg: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_015392",
+      "source_id": "8e475e27aa8f5793",
+      "gloss": "no",
+      "split": "train",
+      "reason": "ERROR: [youtube] hwa_U71nr74: Private video"
+    },
+    {
+      "video_id": "msasl_val_005264",
+      "source_id": "e2fc7f50e4d5062e",
+      "gloss": "no",
+      "split": "val",
+      "reason": "ERROR: [youtube] URb48i4X52U: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_003237",
+      "source_id": "1cebbbe9545b18d6",
+      "gloss": "no",
+      "split": "test",
+      "reason": "ERROR: [youtube] jGsh6zd3eUQ: Private video"
+    },
+    {
+      "video_id": "msasl_train_002745",
+      "source_id": "8709ac1be9b63050",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] Ekcn4CILyfo: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_003560",
+      "source_id": "FStZnhRc0TU",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_003561",
+      "source_id": "FStZnhRc0TU",
+      "gloss": "medicine",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_003559",
+      "source_id": "FStZnhRc0TU",
+      "gloss": "head",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_003795",
+      "source_id": "35eaf7b7d160210b",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] W8lWdSqPySI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_004023",
+      "source_id": "VwejDy96MzM",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_004026",
+      "source_id": "VwejDy96MzM",
+      "gloss": "hospital",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_006029",
+      "source_id": "k0T-yY_HrEQ",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] k0T-yY_HrEQ: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006030",
+      "source_id": "k0T-yY_HrEQ",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] k0T-yY_HrEQ: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006031",
+      "source_id": "k0T-yY_HrEQ",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] k0T-yY_HrEQ: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006032",
+      "source_id": "k0T-yY_HrEQ",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] k0T-yY_HrEQ: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_010129",
+      "source_id": "86261e566b4d7977",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] BHzdbYAUnNg: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011045",
+      "source_id": "sMLECz9C9W0",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] sMLECz9C9W0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011046",
+      "source_id": "sMLECz9C9W0",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] sMLECz9C9W0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_013080",
+      "source_id": "e8511b15c4e0d8c8",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] F_pX4Xy9qQI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_013410",
+      "source_id": "4e605b37377712e7",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] _st2tPdAvgQ: Private video"
+    },
+    {
+      "video_id": "msasl_train_013719",
+      "source_id": "96HY0Pcl_e4",
+      "gloss": "hurt",
+      "split": "train",
+      "reason": "ERROR: [youtube] 96HY0Pcl_e4: Private video"
+    },
+    {
+      "video_id": "msasl_val_001233",
+      "source_id": "R_G5zGVHxkU",
+      "gloss": "hurt",
+      "split": "val",
+      "reason": "ERROR: [youtube] R_G5zGVHxkU: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_001234",
+      "source_id": "R_G5zGVHxkU",
+      "gloss": "hurt",
+      "split": "val",
+      "reason": "ERROR: [youtube] R_G5zGVHxkU: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_003429",
+      "source_id": "3A0iSc2umlg",
+      "gloss": "hurt",
+      "split": "val",
+      "reason": "ERROR: [youtube] 3A0iSc2umlg: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_003430",
+      "source_id": "3A0iSc2umlg",
+      "gloss": "hurt",
+      "split": "val",
+      "reason": "ERROR: [youtube] 3A0iSc2umlg: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_003431",
+      "source_id": "3A0iSc2umlg",
+      "gloss": "hurt",
+      "split": "val",
+      "reason": "ERROR: [youtube] 3A0iSc2umlg: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_001722",
+      "source_id": "71vyx6s25i4",
+      "gloss": "hurt",
+      "split": "test",
+      "reason": "ERROR: [youtube] 71vyx6s25i4: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_002909",
+      "source_id": "72582b607c9af63b",
+      "gloss": "hurt",
+      "split": "test",
+      "reason": "ERROR: [youtube] vltos5gC008: Private video"
+    },
+    {
+      "video_id": "msasl_test_004171",
+      "source_id": "1a30f7aa89e53e91",
+      "gloss": "hurt",
+      "split": "test",
+      "reason": "ERROR: [youtube] PUeBxtWPPFw: Private video"
+    },
+    {
+      "video_id": "msasl_train_003360",
+      "source_id": "XEdsQNNyp-E",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "ERROR: [youtube] XEdsQNNyp-E: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_005159",
+      "source_id": "r6Wyj77v8K4",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_006843",
+      "source_id": "iMUjcZCLaGo",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "ERROR: [youtube] iMUjcZCLaGo: Private video"
+    },
+    {
+      "video_id": "msasl_train_006859",
+      "source_id": "iMUjcZCLaGo",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] iMUjcZCLaGo: Private video"
+    },
+    {
+      "video_id": "msasl_train_006858",
+      "source_id": "iMUjcZCLaGo",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] iMUjcZCLaGo: Private video"
+    },
+    {
+      "video_id": "msasl_train_013220",
+      "source_id": "8397e60a5f3924d4",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "ERROR: [youtube] vS3cW9IUUPM: Private video"
+    },
+    {
+      "video_id": "msasl_train_015404",
+      "source_id": "vkjQHTjhcD4",
+      "gloss": "sick",
+      "split": "train",
+      "reason": "ERROR: [youtube] vkjQHTjhcD4: Private video"
+    },
+    {
+      "video_id": "msasl_val_003937",
+      "source_id": "n7MQUHa0vr4",
+      "gloss": "sick",
+      "split": "val",
+      "reason": "ERROR: [youtube] n7MQUHa0vr4: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_003938",
+      "source_id": "n7MQUHa0vr4",
+      "gloss": "sick",
+      "split": "val",
+      "reason": "ERROR: [youtube] n7MQUHa0vr4: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_001839",
+      "source_id": "d286ebbf9ba23733",
+      "gloss": "sick",
+      "split": "test",
+      "reason": "ERROR: [youtube] PlZJ0yYcSOI: Private video"
+    },
+    {
+      "video_id": "msasl_test_001848",
+      "source_id": "8b1fd81bbab46d69",
+      "gloss": "sick",
+      "split": "test",
+      "reason": "ERROR: [youtube] BuJZZAGk6GM: Private video"
+    },
+    {
+      "video_id": "msasl_train_001589",
+      "source_id": "11e09a19023d3b39",
+      "gloss": "medicine",
+      "split": "train",
+      "reason": "ERROR: [youtube] AcjtTUYEV2w: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_006554",
+      "source_id": "sG6kSLPCQ3A",
+      "gloss": "medicine",
+      "split": "train",
+      "reason": "ERROR: [youtube] sG6kSLPCQ3A: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006555",
+      "source_id": "sG6kSLPCQ3A",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] sG6kSLPCQ3A: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006556",
+      "source_id": "sG6kSLPCQ3A",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] sG6kSLPCQ3A: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006557",
+      "source_id": "sG6kSLPCQ3A",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] sG6kSLPCQ3A: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006558",
+      "source_id": "sG6kSLPCQ3A",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] sG6kSLPCQ3A: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_014106",
+      "source_id": "685aa5f2b5a46e79",
+      "gloss": "medicine",
+      "split": "train",
+      "reason": "ERROR: [youtube] dlkau3u_c3s: Private video"
+    },
+    {
+      "video_id": "msasl_val_002418",
+      "source_id": "adbde0d046bafd9d",
+      "gloss": "medicine",
+      "split": "val",
+      "reason": "ERROR: [youtube] rdtLwk9PeEU: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004783",
+      "source_id": "246478707c417465",
+      "gloss": "medicine",
+      "split": "val",
+      "reason": "ERROR: [youtube] vAVSxCCr9jk: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_000276",
+      "source_id": "0418f7b3db8d70d1",
+      "gloss": "medicine",
+      "split": "test",
+      "reason": "ERROR: [youtube] AUEQVbV588c: Private video"
+    },
+    {
+      "video_id": "msasl_test_000312",
+      "source_id": "pupBwmtznhI",
+      "gloss": "medicine",
+      "split": "test",
+      "reason": "ERROR: [youtube] pupBwmtznhI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_004158",
+      "source_id": "yGAqpfsxx9s",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] yGAqpfsxx9s: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_004159",
+      "source_id": "yGAqpfsxx9s",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] yGAqpfsxx9s: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_005838",
+      "source_id": "e8402131993aa6dd",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] zl9aTqYRVXQ: Private video"
+    },
+    {
+      "video_id": "msasl_train_009842",
+      "source_id": "6MdIhnIdNi0",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] 6MdIhnIdNi0: Private video"
+    },
+    {
+      "video_id": "msasl_train_011716",
+      "source_id": "yhBt5YS_2L4",
+      "gloss": "doctor",
+      "split": "train",
+      "reason": "ERROR: [youtube] yhBt5YS_2L4: Private video"
+    },
+    {
+      "video_id": "msasl_val_004864",
+      "source_id": "KLD5f35qEDI",
+      "gloss": "doctor",
+      "split": "val",
+      "reason": "ERROR: [youtube] KLD5f35qEDI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004946",
+      "source_id": "KLD5f35qEDI",
+      "gloss": "eat",
+      "split": "val",
+      "reason": "ERROR: [youtube] KLD5f35qEDI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004947",
+      "source_id": "KLD5f35qEDI",
+      "gloss": "eat",
+      "split": "val",
+      "reason": "ERROR: [youtube] KLD5f35qEDI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004948",
+      "source_id": "KLD5f35qEDI",
+      "gloss": "drink",
+      "split": "val",
+      "reason": "ERROR: [youtube] KLD5f35qEDI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_000617",
+      "source_id": "QPiZO8Aswgo",
+      "gloss": "doctor",
+      "split": "test",
+      "reason": "ERROR: [youtube] QPiZO8Aswgo: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_000731",
+      "source_id": "2fxtI59FmNs",
+      "gloss": "doctor",
+      "split": "test",
+      "reason": "ERROR: [youtube] 2fxtI59FmNs: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_000732",
+      "source_id": "2fxtI59FmNs",
+      "gloss": "drink",
+      "split": "test",
+      "reason": "ERROR: [youtube] 2fxtI59FmNs: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_003100",
+      "source_id": "c9c500e930251e4c",
+      "gloss": "doctor",
+      "split": "test",
+      "reason": "ERROR: [youtube] sSpld6bXlM0: Private video"
+    },
+    {
+      "video_id": "msasl_train_001020",
+      "source_id": "mC0lNJ6iz-s",
+      "gloss": "hospital",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_001049",
+      "source_id": "mC0lNJ6iz-s",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_001050",
+      "source_id": "mC0lNJ6iz-s",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_001051",
+      "source_id": "mC0lNJ6iz-s",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_001052",
+      "source_id": "mC0lNJ6iz-s",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_001023",
+      "source_id": "mC0lNJ6iz-s",
+      "gloss": "when",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_010063",
+      "source_id": "0483338d0dff8604",
+      "gloss": "hospital",
+      "split": "train",
+      "reason": "ERROR: [youtube] nVGW6FnfoZk: Private video"
+    },
+    {
+      "video_id": "msasl_val_003665",
+      "source_id": "2lzLDsoVWww",
+      "gloss": "hospital",
+      "split": "val",
+      "reason": "ERROR: [youtube] 2lzLDsoVWww: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_005098",
+      "source_id": "03ILXTfrHZU",
+      "gloss": "hospital",
+      "split": "val",
+      "reason": "ERROR: [youtube] 03ILXTfrHZU: Video unavailable"
+    },
+    {
+      "video_id": "msasl_val_005099",
+      "source_id": "03ILXTfrHZU",
+      "gloss": "hospital",
+      "split": "val",
+      "reason": "ERROR: [youtube] 03ILXTfrHZU: Video unavailable"
+    },
+    {
+      "video_id": "msasl_test_001857",
+      "source_id": "7dd6adafa87d2638",
+      "gloss": "hospital",
+      "split": "test",
+      "reason": "ERROR: [youtube] n0ghkagUd8g: Private video"
+    },
+    {
+      "video_id": "msasl_test_003625",
+      "source_id": "dAzz4ooEN0U",
+      "gloss": "hospital",
+      "split": "test",
+      "reason": "ERROR: [youtube] dAzz4ooEN0U: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_004003",
+      "source_id": "06dbd229e26cf2bf",
+      "gloss": "hospital",
+      "split": "test",
+      "reason": "ERROR: [youtube] RBjXHnCW5O4: Private video"
+    },
+    {
+      "video_id": "msasl_test_004090",
+      "source_id": "a75d0f88808e206a",
+      "gloss": "hospital",
+      "split": "test",
+      "reason": "ERROR: [youtube] rKv7TkepoF4: Private video"
+    },
+    {
+      "video_id": "msasl_train_001428",
+      "source_id": "73icFhednQU",
+      "gloss": "head",
+      "split": "train",
+      "reason": "ERROR: [youtube] 73icFhednQU: Private video"
+    },
+    {
+      "video_id": "msasl_train_001479",
+      "source_id": "73icFhednQU",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] 73icFhednQU: Private video"
+    },
+    {
+      "video_id": "msasl_train_001478",
+      "source_id": "73icFhednQU",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] 73icFhednQU: Private video"
+    },
+    {
+      "video_id": "msasl_train_001443",
+      "source_id": "73icFhednQU",
+      "gloss": "sleep",
+      "split": "train",
+      "reason": "ERROR: [youtube] 73icFhednQU: Private video"
+    },
+    {
+      "video_id": "msasl_train_002913",
+      "source_id": "f7COHRpmVKA",
+      "gloss": "head",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_015190",
+      "source_id": "ooqEI4Fp3kU",
+      "gloss": "head",
+      "split": "train",
+      "reason": "ERROR: [youtube] ooqEI4Fp3kU: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_000053",
+      "source_id": "cNtU2UH-2Rk",
+      "gloss": "head",
+      "split": "test",
+      "reason": "ERROR: [youtube] cNtU2UH-2Rk: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_000050",
+      "source_id": "cNtU2UH-2Rk",
+      "gloss": "face",
+      "split": "test",
+      "reason": "ERROR: [youtube] cNtU2UH-2Rk: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_000054",
+      "source_id": "cNtU2UH-2Rk",
+      "gloss": "heart",
+      "split": "test",
+      "reason": "ERROR: [youtube] cNtU2UH-2Rk: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_001759",
+      "source_id": "1b6ec2ad2b48f3f3",
+      "gloss": "head",
+      "split": "test",
+      "reason": "ERROR: [youtube] DINkbgdlodM: Private video"
+    },
+    {
+      "video_id": "msasl_test_004092",
+      "source_id": "955bc35e83a89c5e",
+      "gloss": "face",
+      "split": "test",
+      "reason": "ERROR: [youtube] PeQLdvjfrSE: Private video"
+    },
+    {
+      "video_id": "msasl_train_007098",
+      "source_id": "WprUBqi3iBc",
+      "gloss": "mouth",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_test_003924",
+      "source_id": "936b0461e11f186b",
+      "gloss": "mouth",
+      "split": "test",
+      "reason": "ERROR: [youtube] 9JN3kjH0c3s: Private video"
+    },
+    {
+      "video_id": "msasl_train_006289",
+      "source_id": "_3zof1QE6O4",
+      "gloss": "heart",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_val_004338",
+      "source_id": "_bL1hlBmaLI",
+      "gloss": "heart",
+      "split": "val",
+      "reason": "ERROR: [youtube] _bL1hlBmaLI: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_004339",
+      "source_id": "_bL1hlBmaLI",
+      "gloss": "heart",
+      "split": "val",
+      "reason": "ERROR: [youtube] _bL1hlBmaLI: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_000890",
+      "source_id": "fded5a04302e92df",
+      "gloss": "heart",
+      "split": "test",
+      "reason": "ERROR: [youtube] 0jSUF1b4YiU: Private video"
+    },
+    {
+      "video_id": "msasl_test_002334",
+      "source_id": "f7458c348bc61fb6",
+      "gloss": "heart",
+      "split": "test",
+      "reason": "ERROR: [youtube] HROvaYjDSms: Private video"
+    },
+    {
+      "video_id": "msasl_test_003383",
+      "source_id": "d7b11fc1ca049704",
+      "gloss": "heart",
+      "split": "test",
+      "reason": "ERROR: [youtube] OVcBspDTIbc: Private video"
+    },
+    {
+      "video_id": "msasl_test_003632",
+      "source_id": "debb627469cf19bb",
+      "gloss": "heart",
+      "split": "test",
+      "reason": "ERROR: [youtube] ruzHjYmh9Yw: Private video"
+    },
+    {
+      "video_id": "msasl_train_003037",
+      "source_id": "uM98W6WkvK0",
+      "gloss": "back",
+      "split": "train",
+      "reason": "ERROR: [youtube] uM98W6WkvK0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_003038",
+      "source_id": "uM98W6WkvK0",
+      "gloss": "back",
+      "split": "train",
+      "reason": "ERROR: [youtube] uM98W6WkvK0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_004394",
+      "source_id": "uPWzbFvXcuw",
+      "gloss": "back",
+      "split": "train",
+      "reason": "ERROR: [youtube] uPWzbFvXcuw: Private video"
+    },
+    {
+      "video_id": "msasl_train_007492",
+      "source_id": "Dax964vUumQ",
+      "gloss": "back",
+      "split": "train",
+      "reason": "ERROR: [youtube] Dax964vUumQ: Private video"
+    },
+    {
+      "video_id": "msasl_train_015722",
+      "source_id": "J6H-B-rbdg8",
+      "gloss": "back",
+      "split": "train",
+      "reason": "ERROR: [youtube] J6H-B-rbdg8: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_003686",
+      "source_id": "WrfCfD9gi-I",
+      "gloss": "back",
+      "split": "val",
+      "reason": "ERROR: [youtube] WrfCfD9gi-I: Private video"
+    },
+    {
+      "video_id": "msasl_val_003770",
+      "source_id": "J9kZS0VdY_A",
+      "gloss": "back",
+      "split": "val",
+      "reason": "ERROR: [youtube] J9kZS0VdY_A: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004572",
+      "source_id": "FRQbKDZeRzM",
+      "gloss": "back",
+      "split": "val",
+      "reason": "ERROR: [youtube] FRQbKDZeRzM: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_004573",
+      "source_id": "FRQbKDZeRzM",
+      "gloss": "back",
+      "split": "val",
+      "reason": "ERROR: [youtube] FRQbKDZeRzM: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_002089",
+      "source_id": "3d99dd4851d3f1b4",
+      "gloss": "back",
+      "split": "test",
+      "reason": "ERROR: [youtube] tM18pnANcJA: Private video"
+    },
+    {
+      "video_id": "msasl_test_003155",
+      "source_id": "2fe9aa5910e98a79",
+      "gloss": "back",
+      "split": "test",
+      "reason": "ERROR: [youtube] kzjPOzLlaI0: Private video"
+    },
+    {
+      "video_id": "msasl_test_003288",
+      "source_id": "a5c7ebb6729c72fe",
+      "gloss": "back",
+      "split": "test",
+      "reason": "ERROR: [youtube] 1DjBwnA6i5o: Private video"
+    },
+    {
+      "video_id": "msasl_train_004661",
+      "source_id": "3rurYLE33MI",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] 3rurYLE33MI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_004665",
+      "source_id": "QxOYnMWCVhM",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] QxOYnMWCVhM: Private video"
+    },
+    {
+      "video_id": "msasl_train_004666",
+      "source_id": "QxOYnMWCVhM",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] QxOYnMWCVhM: Private video"
+    },
+    {
+      "video_id": "msasl_train_004667",
+      "source_id": "QxOYnMWCVhM",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] QxOYnMWCVhM: Private video"
+    },
+    {
+      "video_id": "msasl_train_007480",
+      "source_id": "50f785848e0a8a8d",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] rbnYbQyFvK4: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_010815",
+      "source_id": "oDnz2t98VYk",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] oDnz2t98VYk: Private video"
+    },
+    {
+      "video_id": "msasl_train_010819",
+      "source_id": "oDnz2t98VYk",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] oDnz2t98VYk: Private video"
+    },
+    {
+      "video_id": "msasl_train_012737",
+      "source_id": "8a53cbc238ad2c24",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] I6vvmVz7Q8E: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_014025",
+      "source_id": "Kyt9S2NcdXw",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] Kyt9S2NcdXw: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_014026",
+      "source_id": "Kyt9S2NcdXw",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] Kyt9S2NcdXw: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_014027",
+      "source_id": "Kyt9S2NcdXw",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] Kyt9S2NcdXw: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_014415",
+      "source_id": "thdb-I-H9kE",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_014416",
+      "source_id": "thdb-I-H9kE",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_014422",
+      "source_id": "thdb-I-H9kE",
+      "gloss": "sleep",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_015660",
+      "source_id": "2LX7wfTYW3o",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] 2LX7wfTYW3o: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_015661",
+      "source_id": "2LX7wfTYW3o",
+      "gloss": "eat",
+      "split": "train",
+      "reason": "ERROR: [youtube] 2LX7wfTYW3o: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_002394",
+      "source_id": "wVrfhtSnUCQ",
+      "gloss": "eat",
+      "split": "val",
+      "reason": "ERROR: [youtube] wVrfhtSnUCQ: Video unavailable"
+    },
+    {
+      "video_id": "msasl_val_003209",
+      "source_id": "42c2bd4f22815f77",
+      "gloss": "eat",
+      "split": "val",
+      "reason": "ERROR: [youtube] XleDZhobVno: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_000651",
+      "source_id": "95d3bc408d95f748",
+      "gloss": "eat",
+      "split": "test",
+      "reason": "ERROR: [youtube] FSxHpeiCuBc: Private video"
+    },
+    {
+      "video_id": "msasl_test_001788",
+      "source_id": "zOzgRJ3bAdI",
+      "gloss": "eat",
+      "split": "test",
+      "reason": "ERROR: [youtube] zOzgRJ3bAdI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_001872",
+      "source_id": "93e71502df7a09a1",
+      "gloss": "eat",
+      "split": "test",
+      "reason": "ERROR: [youtube] QkTP_AyKk_k: Private video"
+    },
+    {
+      "video_id": "msasl_test_002088",
+      "source_id": "466799216906ea25",
+      "gloss": "eat",
+      "split": "test",
+      "reason": "ERROR: [youtube] BDjU4O4JilI: Private video"
+    },
+    {
+      "video_id": "msasl_train_001867",
+      "source_id": "ax2UGtA8h3E",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] ax2UGtA8h3E: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+    },
+    {
+      "video_id": "msasl_train_006637",
+      "source_id": "OSPBKnsTuDY",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] OSPBKnsTuDY: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006638",
+      "source_id": "OSPBKnsTuDY",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] OSPBKnsTuDY: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006639",
+      "source_id": "OSPBKnsTuDY",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] OSPBKnsTuDY: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006640",
+      "source_id": "OSPBKnsTuDY",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] OSPBKnsTuDY: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006641",
+      "source_id": "OSPBKnsTuDY",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] OSPBKnsTuDY: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006642",
+      "source_id": "OSPBKnsTuDY",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] OSPBKnsTuDY: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_006643",
+      "source_id": "OSPBKnsTuDY",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] OSPBKnsTuDY: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_007079",
+      "source_id": "IbpWUgidDS0",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] IbpWUgidDS0: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_007235",
+      "source_id": "55aa116b9db7be32",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] dZGxPkGt7QA: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_010662",
+      "source_id": "xls-2HJLGSQ",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] xls-2HJLGSQ: Private video"
+    },
+    {
+      "video_id": "msasl_train_014532",
+      "source_id": "3159a5091c221944",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] 6gU3Ln98sWA: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_015452",
+      "source_id": "MIPvaUKFA4c",
+      "gloss": "drink",
+      "split": "train",
+      "reason": "ERROR: [youtube] MIPvaUKFA4c: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_002583",
+      "source_id": "34cd938a559e43fc",
+      "gloss": "drink",
+      "split": "val",
+      "reason": "ERROR: [youtube] 1lifyGwZN7g: This video is not available"
+    },
+    {
+      "video_id": "msasl_val_002949",
+      "source_id": "e5e1c6ca2a54c3c1",
+      "gloss": "drink",
+      "split": "val",
+      "reason": "ERROR: [youtube] Ddd2ZZNFhVI: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_004707",
+      "source_id": "d4539193b64fd4da",
+      "gloss": "drink",
+      "split": "val",
+      "reason": "ERROR: [youtube] L6hHRIQzWBo: Private video"
+    },
+    {
+      "video_id": "msasl_test_001497",
+      "source_id": "ed36b0c453e0e073",
+      "gloss": "drink",
+      "split": "test",
+      "reason": "ERROR: [youtube] yawcLQIhQiE: Private video"
+    },
+    {
+      "video_id": "msasl_test_002827",
+      "source_id": "ea4e0efed5fba062",
+      "gloss": "drink",
+      "split": "test",
+      "reason": "ERROR: [youtube] 0UzEF7ru0sQ: Private video"
+    },
+    {
+      "video_id": "msasl_test_003713",
+      "source_id": "Lk2Vws8homw",
+      "gloss": "drink",
+      "split": "test",
+      "reason": "ERROR: [youtube] Lk2Vws8homw: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_006564",
+      "source_id": "ef880eb87d71589e",
+      "gloss": "sleep",
+      "split": "train",
+      "reason": "ERROR: [youtube] Afsop4rJEZc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_015551",
+      "source_id": "GvhBBWD4PLo",
+      "gloss": "sleep",
+      "split": "train",
+      "reason": "ERROR: [youtube] GvhBBWD4PLo: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_015552",
+      "source_id": "GvhBBWD4PLo",
+      "gloss": "sleep",
+      "split": "train",
+      "reason": "ERROR: [youtube] GvhBBWD4PLo: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_003539",
+      "source_id": "9e7056d54a03094a",
+      "gloss": "sleep",
+      "split": "val",
+      "reason": "ERROR: [youtube] txJdnbUS2Ts: Private video"
+    },
+    {
+      "video_id": "msasl_test_000317",
+      "source_id": "16c7d93107ba2400",
+      "gloss": "sleep",
+      "split": "test",
+      "reason": "ERROR: [youtube] GSqWd9aVVQE: Private video"
+    },
+    {
+      "video_id": "msasl_test_001713",
+      "source_id": "8W98Dr2gH_g",
+      "gloss": "sleep",
+      "split": "test",
+      "reason": "ERROR: [youtube] 8W98Dr2gH_g: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_000478",
+      "source_id": "PpeviLqqBtk",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] PpeviLqqBtk: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_000479",
+      "source_id": "PpeviLqqBtk",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] PpeviLqqBtk: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_014903",
+      "source_id": "TwkGS9TjUX8",
+      "gloss": "where",
+      "split": "train",
+      "reason": "yt-dlp returned without creating the annotated section"
+    },
+    {
+      "video_id": "msasl_train_002636",
+      "source_id": "TUQUVlMupcs",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] TUQUVlMupcs: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_003004",
+      "source_id": "SI_7UivPW_I",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] SI_7UivPW_I: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_003005",
+      "source_id": "SI_7UivPW_I",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] SI_7UivPW_I: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_003207",
+      "source_id": "4718ced25fa4602b",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] LSM0sp4VCz4: Private video"
+    },
+    {
+      "video_id": "msasl_train_004987",
+      "source_id": "p36hZJQpLoQ",
+      "gloss": "where",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_004986",
+      "source_id": "p36hZJQpLoQ",
+      "gloss": "when",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_train_006352",
+      "source_id": "dbzKXsyAcvY",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] dbzKXsyAcvY: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_006353",
+      "source_id": "dbzKXsyAcvY",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] dbzKXsyAcvY: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_009126",
+      "source_id": "6vBcWqvBAOI",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] 6vBcWqvBAOI: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_009127",
+      "source_id": "6vBcWqvBAOI",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] 6vBcWqvBAOI: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_009680",
+      "source_id": "1RjPFNyJ4Tw",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] 1RjPFNyJ4Tw: Private video"
+    },
+    {
+      "video_id": "msasl_train_009679",
+      "source_id": "1RjPFNyJ4Tw",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] 1RjPFNyJ4Tw: Private video"
+    },
+    {
+      "video_id": "msasl_train_011415",
+      "source_id": "ca2c02a24b5ba487",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] 0-Wokz2DWCs: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011549",
+      "source_id": "5kqM18YSifY",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] 5kqM18YSifY: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_011550",
+      "source_id": "5kqM18YSifY",
+      "gloss": "where",
+      "split": "train",
+      "reason": "ERROR: [youtube] 5kqM18YSifY: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_013967",
+      "source_id": "25ymRY7hbjs",
+      "gloss": "where",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_val_005163",
+      "source_id": "cxXEULq9Jpc",
+      "gloss": "where",
+      "split": "val",
+      "reason": "ERROR: [youtube] cxXEULq9Jpc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_005164",
+      "source_id": "cxXEULq9Jpc",
+      "gloss": "where",
+      "split": "val",
+      "reason": "ERROR: [youtube] cxXEULq9Jpc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_005165",
+      "source_id": "cxXEULq9Jpc",
+      "gloss": "where",
+      "split": "val",
+      "reason": "ERROR: [youtube] cxXEULq9Jpc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_val_005166",
+      "source_id": "cxXEULq9Jpc",
+      "gloss": "when",
+      "split": "val",
+      "reason": "ERROR: [youtube] cxXEULq9Jpc: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_000265",
+      "source_id": "HuViTIjghKk",
+      "gloss": "where",
+      "split": "test",
+      "reason": "ERROR: [youtube] HuViTIjghKk: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_000264",
+      "source_id": "HuViTIjghKk",
+      "gloss": "when",
+      "split": "test",
+      "reason": "ERROR: [youtube] HuViTIjghKk: This video is not available"
+    },
+    {
+      "video_id": "msasl_test_002424",
+      "source_id": "03a1fb5da13e9ef9",
+      "gloss": "where",
+      "split": "test",
+      "reason": "ERROR: [youtube] Mrb2M9RV_KM: Private video"
+    },
+    {
+      "video_id": "msasl_test_003336",
+      "source_id": "WlHOl9zIUpE",
+      "gloss": "where",
+      "split": "test",
+      "reason": "ERROR: [youtube] WlHOl9zIUpE: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_train_001784",
+      "source_id": "tnDmMASGjOc",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] tnDmMASGjOc: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_001785",
+      "source_id": "tnDmMASGjOc",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] tnDmMASGjOc: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_001786",
+      "source_id": "tnDmMASGjOc",
+      "gloss": "when",
+      "split": "train",
+      "reason": "ERROR: [youtube] tnDmMASGjOc: This video is not available"
+    },
+    {
+      "video_id": "msasl_train_014361",
+      "source_id": "3k8mU6Pervk",
+      "gloss": "when",
+      "split": "train",
+      "reason": "OpenCV could not decode the downloaded clip"
+    },
+    {
+      "video_id": "msasl_val_001300",
+      "source_id": "CzWUUhk6mMI",
+      "gloss": "when",
+      "split": "val",
+      "reason": "ERROR: [youtube] CzWUUhk6mMI: Private video"
+    },
+    {
+      "video_id": "msasl_test_002138",
+      "source_id": "ff0063d83b9d1e9a",
+      "gloss": "when",
+      "split": "test",
+      "reason": "ERROR: [youtube] _R6NUaj_a6M: Private video"
+    },
+    {
+      "video_id": "msasl_test_002922",
+      "source_id": "Cc63Y3NcUnU",
+      "gloss": "when",
+      "split": "test",
+      "reason": "ERROR: [youtube] Cc63Y3NcUnU: This video is unavailable"
+    },
+    {
+      "video_id": "msasl_test_003335",
+      "source_id": "637d6852a3fe850e",
+      "gloss": "when",
+      "split": "test",
+      "reason": "ERROR: [youtube] 9Eh5DYPy09Q: Private video"
+    }
+  ],
+  "mediapipe_attempted": 451,
+  "mediapipe_failures": [],
+  "boundary_fallbacks": [],
+  "included_classes": [
+    "back",
+    "doctor",
+    "drink",
+    "eat",
+    "face",
+    "head",
+    "heart",
+    "help",
+    "hospital",
+    "hurt",
+    "medicine",
+    "mouth",
+    "no",
+    "sick",
+    "sleep",
+    "when",
+    "where",
+    "yes"
+  ],
+  "split_samples": {
+    "train": 326,
+    "val": 82,
+    "test": 43
+  }
+}
